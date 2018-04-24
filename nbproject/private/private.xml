@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp64/www/FirstSite/app/config/config.yml</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/DependencyInjection/RLIStockExtension.php</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/Controller/produitController.php</file>
+            <file>file:/C:/wamp64/www/FirstSite/app/Resources/views/index.html.twig</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/Entity/Produit.php</file>
+            <file>file:/C:/wamp64/www/FirstSite/app/config/parameters.yml</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/Repository/ProduitRepository.php</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/RLIStockBundle.php</file>
+            <file>file:/C:/wamp64/www/FirstSite/app/Resources/views/produit.html.twig</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/Resources/views/categorieController.php</file>
+            <file>file:/C:/wamp64/www/FirstSite/app/config/config_dev.yml</file>
+            <file>file:/C:/wamp64/www/FirstSite/app/Resources/views/default/index.html.twig</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/Resources/views/categorie.html.twig</file>
+            <file>file:/C:/wamp64/www/FirstSite/src/RLI/StockBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/wamp64/www/FirstSite/app/Resources/views/form.html.twig</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,103 @@
+<?php
+
+namespace RLI\StockBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Article
+ *
+ * @ORM\Table(name="article")
+ * @ORM\Entity(repositoryClass="RLI\StockBundle\Repository\ArticleRepository")
+ */
+class Article
+{
+    /**
+     * @ORM\ManyToOne(targetEntity="Tarif")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $tarif;
+    
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="art_nom", type="string", length=50)
+     */
+    private $artNom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="art_qte", type="decimal", precision=7, scale=2)
+     */
+    private $artQte;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set artNom
+     *
+     * @param string $artNom
+     *
+     * @return Article
+     */
+    public function setArtNom($artNom)
+    {
+        $this->artNom = $artNom;
+
+        return $this;
+    }
+
+    /**
+     * Get artNom
+     *
+     * @return string
+     */
+    public function getArtNom()
+    {
+        return $this->artNom;
+    }
+
+    /**
+     * Set artQte
+     *
+     * @param string $artQte
+     *
+     * @return Article
+     */
+    public function setArtQte($artQte)
+    {
+        $this->artQte = $artQte;
+
+        return $this;
+    }
+
+    /**
+     * Get artQte
+     *
+     * @return string
+     */
+    public function getArtQte()
+    {
+        return $this->artQte;
+    }
+}
+

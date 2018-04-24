@@ -1,0 +1,66 @@
+<?php
+
+namespace RLI\StockBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Tarif
+ *
+ * @ORM\Table(name="tarif")
+ * @ORM\Entity(repositoryClass="RLI\StockBundle\Repository\TarifRepository")
+ */
+class Tarif
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="tar_mont", type="decimal", precision=7, scale=2)
+     */
+    private $tarMont;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set tarMont
+     *
+     * @param string $tarMont
+     *
+     * @return Tarif
+     */
+    public function setTarMont($tarMont)
+    {
+        $this->tarMont = $tarMont;
+
+        return $this;
+    }
+
+    /**
+     * Get tarMont
+     *
+     * @return string
+     */
+    public function getTarMont()
+    {
+        return $this->tarMont;
+    }
+}
+

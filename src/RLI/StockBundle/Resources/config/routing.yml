@@ -1,0 +1,19 @@
+rli_suivi_homepage:
+    path:  /
+    defaults:  { _controller: RLIStockBundle:produit:index }
+ 
+add_produit:
+    path:  /ajouterProduit/{idcat}
+    defaults:  { _controller: RLIStockBundle:produit:add }
+    
+disp_produit:
+    path:  /afficherProduit/{id}
+    defaults:  { _controller: RLIStockBundle:produit:display }
+    
+add_categorie:
+    path:  /ajouterCategorie
+    defaults:  { _controller: RLIStockBundle:categorie:add }
+    
+disp_categ:
+    path:  /afficherCategorie/{id}
+    defaults:  { _controller: RLIStockBundle:categorie:display }

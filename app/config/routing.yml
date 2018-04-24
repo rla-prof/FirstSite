@@ -1,0 +1,7 @@
+rli_stock:
+    resource: "@RLIStockBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
